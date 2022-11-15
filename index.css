@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.hero-container {
+    display: flex;
+    background-color: #1F2937;
+}
+
+
+.hero-info h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero-info p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.info-container {
+    display: flex;
+}
+
+.quote-container {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}
