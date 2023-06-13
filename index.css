@@ -1,42 +1,67 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
-.header {
+header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
     background-color: #1F2937;
+}
+
+.header-logo img{
+    width: 75px;
+    padding-left: 50px;
+}
+
+.header-links ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding-right: 50px;
+}
+
+a {
+    text-decoration: none;
     color: #F9FAF8;
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
 }
 
 .hero-container {
     display: flex;
+    justify-content: center;
+    padding: 25px 75px;
+    gap: 50px;
     background-color: #1F2937;
+    color: white;
 }
 
-
-.hero-info h1 {
+.title {
     font-size: 48px;
-    color: #F9FAF8;
 }
 
-.hero-info p {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-.header .logo {
-    font-size: 24px;
-    color: #F9FAF8;
+.hero-img img {
+    height: 350px;
 }
 
 .info-container {
     display: flex;
+    justify-content: space-evenly;
+    padding: 0px 50px;
+    gap: 50px;
 }
 
-.quote-container {
-    display: flex;
-}
-
-.footer {
-    display: flex;
+.secondary-title {
+    font-size: 24px;
+    text-align: center;
+    padding: 25px;
 }
