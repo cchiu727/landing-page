@@ -7,25 +7,31 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 5px 75px;
     background-color: #1F2937;
+
+    /* border: dotted red 1px; */
 }
 
 .header-logo img{
     width: 75px;
-    padding-left: 50px;
+
+    /* border: dotted red 1px; */
 }
 
 .header-links ul {
     list-style: none;
     display: flex;
-    gap: 40px;
-    padding-right: 50px;
+    gap: 50px;
+
+    /*border: dotted red 1px; */
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none;            
     color: #F9FAF8;
+
+    /*border: dotted red 1px; */
 }
 
 button {
@@ -38,15 +44,19 @@ button {
 
 .hero-container {
     display: flex;
-    justify-content: center;
-    padding: 25px 75px;
+    justify-content: space-between;
+    padding: 20px 75px;
     gap: 50px;
     background-color: #1F2937;
     color: white;
+
+    /* border: dotted red 1px; */
 }
 
 .title {
     font-size: 48px;
+
+    /* border: dotted red 1px; */
 }
 
 .hero-img img {
