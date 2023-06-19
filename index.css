@@ -3,6 +3,7 @@ body {
     margin: 0;
 }
 
+/* header container */
 header {
     display: flex;
     align-items: center;
@@ -28,13 +29,15 @@ header {
 }
 
 a {
-    text-decoration: none;            
+    text-decoration: none;
     color: #F9FAF8;
 
     /*border: dotted red 1px; */
 }
+/*----------*/
 
-button {
+/* hero container */
+.hero-btn {
     background-color: #3882f6;
     border: none;
     border-radius: 5px;
@@ -60,45 +63,76 @@ button {
 .hero-img img {
     height: 300px;
 }
+/*----------*/
 
+/* info container */
 .info-container {
     display: flex;
     justify-content: space-evenly;
-    padding: 0px 50px;
-    gap: 50px;
+    padding: 0px 100px;
+    gap: 20px;
     text-align: center;
 }
 
 .secondary-title {
     font-size: 24px;
     text-align: center;
-    padding: 25px;
+    padding: 5px;
+    font-weight: bold;
 }
 
 .info-img {
     border: solid #3882f6 3px;
     border-radius: 10%;
     width: 150px;
+
 }
 
 .info-text {
     width: 150px;
 }
+/*----------*/
 
+/* quote container */
 .quote-container {
     background-color: #E5E7EB;
     padding: 75px;
     font-size: 36px;
 }
 
+.quote-text {
+    padding: 0 100px;
+}
+
 .quote-author {
     font-weight: bold;
     text-align: right;
+    padding-right: 75px;
 }
+/*----------*/
 
+/* footer */
 footer {
-    margin: 100px;
+    margin: 75px 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 100px;
+    padding: 10px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #FFFFFF;
 }
+
+.signup-container {
+    background-color: #3882f6;
+}
+
+.signup-btn {
+    border: solid #FFFFFF 2px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #FFFFFF;
+    padding: 10px 20px;
+}
+/*----------*/
