@@ -55,12 +55,10 @@ button {
 
 .title {
     font-size: 48px;
-
-    /* border: dotted red 1px; */
 }
 
 .hero-img img {
-    height: 350px;
+    height: 300px;
 }
 
 .info-container {
@@ -68,10 +66,21 @@ button {
     justify-content: space-evenly;
     padding: 0px 50px;
     gap: 50px;
+    text-align: center;
 }
 
 .secondary-title {
     font-size: 24px;
     text-align: center;
     padding: 25px;
+}
+
+.info-img {
+    border: solid #3882f6 3px;
+    border-radius: 10%;
+    width: 150px;
+}
+
+.info-text {
+    width: 150px;
 }
