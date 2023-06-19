@@ -84,3 +84,21 @@ button {
 .info-text {
     width: 150px;
 }
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 75px;
+    font-size: 36px;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: right;
+}
+
+footer {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
